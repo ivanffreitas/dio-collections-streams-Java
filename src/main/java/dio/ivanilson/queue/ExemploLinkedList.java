@@ -15,29 +15,29 @@ public class ExemploLinkedList {
         filaBanco.add("Arthur");
         filaBanco.add("Igor");
 
-        System.out.println("FILA DO BANDO: " + filaBanco + "\n");
+        System.out.println("FILA DO BANCO: " + filaBanco + "\n");
 
         String clienteASerAtendido = filaBanco.poll(); //POLL exibir o primeiro da fila e remove
         System.out.println("CLIENTE A SER ATENDIDO: " + clienteASerAtendido + "\n");
 
-        System.out.println("FILA DO BANDO: " + filaBanco + "\n");
+        System.out.println("FILA DO BANCO: " + filaBanco + "\n");
 
         //filaBanco.clear(); //limpar lista
 
         String primeiroCliente = filaBanco.peek(); //PEEK exibir o primeiro da fila, se a lista vazia retorna NULL
         System.out.println("PRIMEIRO CLIENTE DA FILA: " + primeiroCliente + "\n");
 
-        System.out.println("FILA DO BANDO: " + filaBanco + "\n");
+        System.out.println("FILA DO BANCO: " + filaBanco + "\n");
 
         //filaBanco.clear(); //limpar lista
 
         String primeiroClienteOuErro = filaBanco.element(); //ELEMENT exibir o primeiro da fila se a lista vazia retorna erro
         System.out.println("PRIMEIRO CLIENTE DA FILA: " + primeiroClienteOuErro + "\n");
 
-        System.out.println("FILA DO BANDO: " + filaBanco + "\n");
+        System.out.println("FILA DO BANCO: " + filaBanco + "\n");
 
         //navegar na lista usando for
-        System.out.println("Navegando na lista");
+        System.out.println("NAVEGANDO NA LISTA");
         for (String client: filaBanco){
             System.out.println(client);
         }
@@ -57,7 +57,7 @@ public class ExemploLinkedList {
 
         //adicionar um elemento na lista
         filaBanco.add("Coelho");
-        System.out.println("FILA DO BANDO: " + filaBanco + "\n");
+        System.out.println("FILA DO BANCO: " + filaBanco + "\n");
 
 
     }
